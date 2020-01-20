@@ -3,7 +3,7 @@ import radio
 
 
 radio.on()
-radio.config(channel = 7)
+radio.config(channel=7)
 
 while True:
     if button_a.is_pressed():
